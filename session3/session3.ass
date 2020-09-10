@@ -194,7 +194,8 @@ Dialogue: 0,0:22:46.84,0:22:49.44,Default,,0,0,0,,you can write a polymorphicall
 Dialogue: 0,0:22:49.44,0:22:52.44,Default,,0,0,0,,with the location abstraction\Nover location variable
 Dialogue: 0,0:22:53.16,0:22:56.16,Default,,0,0,0,,and location application\Nas you see in the slide.
 Dialogue: 0,0:22:56.16,0:22:59.20,Default,,0,0,0,,Then you have only to apply\Nto the client location
-Dialogue: 0,0:22:59.20,0:23:00.80,Default,,0,0,0,,to get a client map function. 
+Dialogue: 0,0:22:59.20,0:23:00.80,Default,,0,0,0,,to get a client map function.
+ 
 Dialogue: 0,0:23:02.04,0:23:05.12,Default,,0,0,0,,You can also apply to\Nthe server location
 Dialogue: 0,0:23:06.12,0:23:07.56,Default,,0,0,0,,to get a server map function.
 Dialogue: 0,0:23:09.04,0:23:12.16,Default,,0,0,0,,This slide shows the comparison\Namong the RPC calculi
@@ -625,7 +626,7 @@ Dialogue: 0,0:46:53.64,0:46:56.16,Default,,0,0,0,,So let's start by\Ntalking abo
 Dialogue: 0,0:46:56.16,0:46:57.92,Default,,0,0,0,,So lists are one of\Nthe very first data types
 Dialogue: 0,0:46:57.92,0:47:00.04,Default,,0,0,0,,that we teach our\Nundergrad students.
 Dialogue: 0,0:47:00.04,0:47:02.44,Default,,0,0,0,,And they're a great vehicle\Nfor explaining concepts
-Dialogue: 0,0:47:02.44,0:47:05.20,Default,,0,0,0,,such as higher order function\Nwith maps and folds,
+Dialogue: 0,0:47:02.44,0:47:05.20,Default,,0,0,0,,such as higher order functions\Nwith maps and folds,
 Dialogue: 0,0:47:05.20,0:47:07.52,Default,,0,0,0,,recursion, or polymorphism.
 Dialogue: 0,0:47:07.52,0:47:08.92,Default,,0,0,0,,But as our students mature,
 Dialogue: 0,0:47:08.92,0:47:10.88,Default,,0,0,0,,they typically take one\Nof two career paths
@@ -636,32 +637,32 @@ Dialogue: 0,0:47:17.80,0:47:21.40,Default,,0,0,0,,any serious amount of data, yo
 Dialogue: 0,0:47:21.40,0:47:25.16,Default,,0,0,0,,such as finite maps or some\Nform of balanced binary tree.
 Dialogue: 0,0:47:25.16,0:47:28.04,Default,,0,0,0,,Other students might pursue\Na career in academia.
 Dialogue: 0,0:47:28.04,0:47:30.32,Default,,0,0,0,,And in that case, they\Nspend their time writing
-Dialogue: 0,0:47:30.32,0:47:33.48,Default,,0,0,0,,intrinsically typed evaluators\Nfor a lambda calculi,
+Dialogue: 0,0:47:30.32,0:47:33.48,Default,,0,0,0,,intrinsically typed evaluators\Nfor lambda calculi,
 Dialogue: 0,0:47:33.48,0:47:35.60,Default,,0,0,0,,or any kind of fancy\Nthing like that,
 Dialogue: 0,0:47:35.60,0:47:40.16,Default,,0,0,0,,which requires a list, where\Nthe values stored in the list
 Dialogue: 0,0:47:40.16,0:47:41.84,Default,,0,0,0,,might actually have different types.
 Dialogue: 0,0:47:41.84,0:47:43.48,Default,,0,0,0,,And to do this in\Na typesafe fashion,
-Dialogue: 0,0:47:43.48,0:47:47.72,Default,,0,0,0,,you typically use something called\Na heterogeneous list or a H list.
+Dialogue: 0,0:47:43.48,0:47:47.72,Default,,0,0,0,,you typically use something called\Na heterogeneous list or a HList.
 Dialogue: 0,0:47:47.72,0:47:51.28,Default,,0,0,0,,So this paper asked the question,\Ncan we have our cake and eat it?
 Dialogue: 0,0:47:51.28,0:47:52.60,Default,,0,0,0,,Can we define a data structure
 Dialogue: 0,0:47:52.60,0:47:55.84,Default,,0,0,0,,that's both heterogeneous\Nand efficient?
-Dialogue: 0,0:47:55.84,0:47:58.56,Default,,0,0,0,,And this isn't just\Na theoretical probe.
+Dialogue: 0,0:47:55.84,0:47:58.56,Default,,0,0,0,,And this isn't just\Na theoretical problem.
 Dialogue: 0,0:47:58.56,0:48:02.12,Default,,0,0,0,,So people who work in\Nindustry and academia,
-Dialogue: 0,0:48:02.12,0:48:05.20,Default,,0,0,0,,such as David Christian, and\Nhis co-authors at Galois,
+Dialogue: 0,0:48:02.12,0:48:05.20,Default,,0,0,0,,such as David Christiansen, and\Nhis co-authors at Galois,
 Dialogue: 0,0:48:05.20,0:48:06.68,Default,,0,0,0,,they wrote an experience report
 Dialogue: 0,0:48:06.68,0:48:09.56,Default,,0,0,0,,on Dependently Typed Haskell\Nin Industry last year,
-Dialogue: 0,0:48:09.56,0:48:13.04,Default,,0,0,0,,that they have this experience of\Nprofiling crucible that showed
+Dialogue: 0,0:48:09.56,0:48:13.04,Default,,0,0,0,,that they have this experience of\Nprofiling Crucible that showed
 Dialogue: 0,0:48:13.04,0:48:17.92,Default,,0,0,0,,that linear access imposed an unacceptable\Noverhead on the simulator.
 Dialogue: 0,0:48:17.92,0:48:20.04,Default,,0,0,0,,As a result, they actually\Nabandoned the typesafe
 Dialogue: 0,0:48:20.04,0:48:22.76,Default,,0,0,0,,dependently typed approach\Nthat they were taking,
-Dialogue: 0,0:48:22.76,0:48:26.84,Default,,0,0,0,,in favor of data dot map\Nand an unsafe course.
+Dialogue: 0,0:48:22.76,0:48:26.84,Default,,0,0,0,,in favor of Data.Map\Nand unsafeCoerce.
 Dialogue: 0,0:48:26.84,0:48:29.84,Default,,0,0,0,,So what's in the paper? So\NI show how to implement
 Dialogue: 0,0:48:29.84,0:48:33.12,Default,,0,0,0,,an heterogeneous binary\Nrandom access list in Agda.
-Dialogue: 0,0:48:33.12,0:48:36.80,Default,,0,0,0,,And this has the same API as just\Nregular heterogeneous list.
+Dialogue: 0,0:48:33.12,0:48:36.80,Default,,0,0,0,,And this has the same API as just\Nregular heterogeneous lists.
 Dialogue: 0,0:48:36.80,0:48:39.68,Default,,0,0,0,,So there's an empty structure, nil,
 Dialogue: 0,0:48:39.68,0:48:41.48,Default,,0,0,0,,and there's an operation\Nto add new elements
 Dialogue: 0,0:48:41.48,0:48:44.56,Default,,0,0,0,,to the front of the list\Nand operation to access elements
-Dialogue: 0,0:48:44.56,0:48:47.12,Default,,0,0,0,,within those two lookup,\Nor a bang, bang.
+Dialogue: 0,0:48:44.56,0:48:47.12,Default,,0,0,0,,within the list, a lookup\Nor a (!!)
 Dialogue: 0,0:48:47.12,0:48:50.20,Default,,0,0,0,,And all of these operations\Nare both total and typesafe.
 Dialogue: 0,0:48:50.20,0:48:53.36,Default,,0,0,0,,And furthermore, there are no\Ncoercions or lemmas necessary
 Dialogue: 0,0:48:53.36,0:48:58.20,Default,,0,0,0,,for everything to type check. It's\Nintrinsically typed by design.
@@ -692,15 +693,15 @@ Dialogue: 0,0:50:04.36,0:50:08.36,Default,,0,0,0,,or I can have a node which has
 Dialogue: 0,0:50:08.36,0:50:12.88,Default,,0,0,0,,and then return a tree\Nwhich is one deeper.
 Dialogue: 0,0:50:12.88,0:50:15.96,Default,,0,0,0,,Now if I want to kind of denote any\Nparticular value in such a tree,
 Dialogue: 0,0:50:15.96,0:50:19.04,Default,,0,0,0,,I typically use a path\Nthrough that tree.
-Dialogue: 0,0:50:19.04,0:50:23.24,Default,,0,0,0,,The data type path here is just\Nisomorphic to a vector of booleans
+Dialogue: 0,0:50:19.04,0:50:23.24,Default,,0,0,0,,The data type Path here is just\Nisomorphic to a vector of booleans
 Dialogue: 0,0:50:23.24,0:50:25.80,Default,,0,0,0,,but it's nice to have\Nthis separate data type.
 Dialogue: 0,0:50:25.80,0:50:28.08,Default,,0,0,0,,The idea is that this path\Ntells me for every node
 Dialogue: 0,0:50:28.08,0:50:30.04,Default,,0,0,0,,whether I should go left or right.
 Dialogue: 0,0:50:30.04,0:50:31.76,Default,,0,0,0,,And then I can define\Na lookup operation
 Dialogue: 0,0:50:31.76,0:50:34.28,Default,,0,0,0,,which just follows that\Npath with the tree.
 Dialogue: 0,0:50:34.28,0:50:36.20,Default,,0,0,0,,going to the left subtree
-Dialogue: 0,0:50:36.20,0:50:38.00,Default,,0,0,0,,if the path starts with\Nthe left constructor
-Dialogue: 0,0:50:38.00,0:50:40.24,Default,,0,0,0,,and the right subtree if it starts\Nwith the right constructor.
+Dialogue: 0,0:50:36.20,0:50:38.00,Default,,0,0,0,,if the path starts with\Nthe Left constructor
+Dialogue: 0,0:50:38.00,0:50:40.24,Default,,0,0,0,,and the right subtree if it starts\Nwith the Right constructor.
 Dialogue: 0,0:50:40.76,0:50:42.24,Default,,0,0,0,,At the end of the path I know
 Dialogue: 0,0:50:42.24,0:50:45.16,Default,,0,0,0,,that I've hit a leaf and turn\Nthe value stored there.
 Dialogue: 0,0:50:45.68,0:50:47.60,Default,,0,0,0,,The important thing to notice here
@@ -743,8 +744,8 @@ Dialogue: 0,0:52:28.40,0:52:29.80,Default,,0,0,0,,which increments the binary nu
 Dialogue: 0,0:52:30.28,0:52:33.56,Default,,0,0,0,,The important thing here is that\Nwe have the least significant bit
 Dialogue: 0,0:52:34.32,0:52:35.80,Default,,0,0,0,,at the beginning of\Nthe binary number.
 Dialogue: 0,0:52:35.80,0:52:37.68,Default,,0,0,0,,So if we see a 0
-Dialogue: 0,0:52:37.68,0:52:38.72,Default,,0,0,0,,we can flip it to one,
-Dialogue: 0,0:52:38.72,0:52:41.64,Default,,0,0,0,,if we see a one we flip\Nit to a 0 and recurse.
+Dialogue: 0,0:52:37.68,0:52:38.72,Default,,0,0,0,,we can flip it to 1,
+Dialogue: 0,0:52:38.72,0:52:41.64,Default,,0,0,0,,if we see a 1 we flip\Nit to a 0 and recurse.
 Dialogue: 0,0:52:42.88,0:52:46.16,Default,,0,0,0,,So now we can finally define\Nour random access list.
 Dialogue: 0,0:52:46.16,0:52:48.76,Default,,0,0,0,,There are three type arguments\Nthat you can see here.
 Dialogue: 0,0:52:49.52,0:52:52.88,Default,,0,0,0,,The type A corresponding\Nto the type of the values
@@ -831,7 +832,7 @@ Dialogue: 0,0:56:22.60,0:56:23.88,Default,,0,0,0,,So to wrap up a little bit,
 Dialogue: 0,0:56:23.88,0:56:25.92,Default,,0,0,0,,we can extend this to\Nthe heterogeneous case
 Dialogue: 0,0:56:25.92,0:56:28.92,Default,,0,0,0,,by writing a heterogeneous\Nbinary random access list
 Dialogue: 0,0:56:28.92,0:56:31.08,Default,,0,0,0,,indexed by a random access list
-Dialogue: 0,0:56:31.08,0:56:34.00,Default,,0,0,0,,which stores some type information\Nfor some universe u.
+Dialogue: 0,0:56:31.08,0:56:34.00,Default,,0,0,0,,which stores some type information\Nfor some universe U.
 Dialogue: 0,0:56:35.00,0:56:37.32,Default,,0,0,0,,And despite like\Nthe apparent complexity,
 Dialogue: 0,0:56:37.80,0:56:39.20,Default,,0,0,0,,there is an example in the paper
 Dialogue: 0,0:56:39.20,0:56:41.68,Default,,0,0,0,,where I write an efficient\Nlambda calculus evaluator
